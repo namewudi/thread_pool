@@ -1,5 +1,4 @@
-!src/
-!include/
-!CMakeLists.txt
-!README.md
+.vscode/
+build/
+.gitignore
 
