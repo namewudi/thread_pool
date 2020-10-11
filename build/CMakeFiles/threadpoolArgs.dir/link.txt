@@ -1,0 +1,1 @@
+g++   -std=c++14 -pthread -g  -rdynamic CMakeFiles/threadpoolArgs.dir/src/main.cpp.o  -o threadpoolArgs 

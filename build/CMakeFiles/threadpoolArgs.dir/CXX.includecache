@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/amax/wudi/develop/threadPool/thread_pool/include/threadpoolArgs.h
+mutex
+-
+condition_variable
+-
+functional
+-
+queue
+-
+iostream
+-
+thread
+-
+
+/home/amax/wudi/develop/threadPool/thread_pool/src/main.cpp
+iostream
+-
+functional
+-
+chrono
+-
+../include/threadpoolArgs.h
+/home/amax/wudi/develop/threadPool/thread_pool/include/threadpoolArgs.h
+

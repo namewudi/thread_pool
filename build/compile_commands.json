@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/amax/wudi/develop/threadPool/thread_pool/build",
+  "command": "g++     -std=c++14 -pthread -g   -o CMakeFiles/threadpool.dir/src/main.cpp.o -c /home/amax/wudi/develop/threadPool/thread_pool/src/main.cpp",
+  "file": "/home/amax/wudi/develop/threadPool/thread_pool/src/main.cpp"
+}
+]
