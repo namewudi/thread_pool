@@ -19,7 +19,7 @@ public:
                         data->tasks_.pop();
                         lk.unlock();
                         current();
-                        lk.lock();//阻塞在运行结束，可防止队列为空
+                        lk.lock();//阻塞在任务运行结束，逻辑判断之前
                     }
                     else if (data->is_shutdown_) {
                         break;
